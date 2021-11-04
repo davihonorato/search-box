@@ -1,0 +1,27 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #00a8ff;
+}
+
+.search-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: white;
+}
+
+.search-box .search-txt {
+    display: flex;
+    float: left;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 16px;
+    line-height: 40px;
+    width: 240px;
+}
